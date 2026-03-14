@@ -5,7 +5,7 @@ type Instance struct {
 	Name                                                                                                                                  string
 	Parent                                                                                                                                Instance_[any]
 	Sandboxed                                                                                                                             bool
-	AncestryChanged, AttributeChnaged, ChildAdded, ChildRemoved, DescendantAdded, DescendantRemoving, Destroying, StyledPropertiesChanged RBXScriptSignal
+	AncestryChanged, AttributeChanged, ChildAdded, ChildRemoved, DescendantAdded, DescendantRemoving, Destroying, StyledPropertiesChanged RBXScriptSignal
 }
 
 func (Instance) AddTag(tag string)                                         {}
